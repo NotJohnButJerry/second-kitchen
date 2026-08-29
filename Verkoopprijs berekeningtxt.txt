@@ -1,0 +1,11 @@
+Verkoopprijs berekening in Xcg:
+
+
+Aankoopbedrag			X (1500)
+Vervoer en opslag		400
+Shipping naar Curacao		1000
+Transport naar koper		150
+Installatie			300
+Te verdienen deel 		1000
+			------------------+
+Verkoopprijs			3450
