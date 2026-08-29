@@ -121,6 +121,17 @@ section h2 {
 
 .story p { max-width: 720px; margin: 0 auto 18px; }
 
+.story h3 {
+  max-width: 720px;
+  margin: 32px auto 18px;
+  font-size: 1.3rem;
+}
+
+.story-tagline {
+  color: var(--green);
+  font-size: 1.15rem;
+}
+
 .section-intro {
   text-align: center;
   margin-top: -16px;
