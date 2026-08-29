@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="nl">
+<html lang="nl" id="html-root">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,11 +14,12 @@
       <img src="logo/Second_Kitchen_logo6_transparent.png" alt="Second Kitchen" class="logo">
     </a>
     <nav class="main-nav">
-      <a href="#verhaal">Ons verhaal</a>
-      <a href="#proces">Werkwijze</a>
-      <a href="#keukens">Beschikbare keukens</a>
-      <a href="#contact">Contact</a>
+      <a href="#verhaal" id="nav-verhaal">Ons verhaal</a>
+      <a href="#proces" id="nav-proces">Werkwijze</a>
+      <a href="#keukens" id="nav-keukens">Beschikbare keukens</a>
+      <a href="#contact" id="nav-contact">Contact</a>
     </nav>
+    <button type="button" id="lang-toggle" class="lang-toggle">Papiamentu</button>
   </div>
 </header>
 
@@ -26,62 +27,62 @@
 
   <section class="hero">
     <div class="container hero-inner">
-      <h1>Mooie keukens.<br>Een tweede kans.</h1>
-      <p>Bij Second Kitchen geven we goede, gebruikte keukens een nieuw thuis. Compleet, betaalbaar en met oog voor kwaliteit.</p>
-      <a href="#keukens" class="btn btn-primary">Bekijk beschikbare keukens</a>
+      <h1 id="hero-title">Mooie keukens.<br>Een tweede kans.</h1>
+      <p id="hero-desc">Bij Second Kitchen geven we goede, gebruikte keukens een nieuw thuis. Compleet, betaalbaar en met oog voor kwaliteit.</p>
+      <a href="#keukens" class="btn btn-primary" id="hero-cta">Bekijk beschikbare keukens</a>
     </div>
   </section>
 
   <section id="verhaal" class="story">
     <div class="container">
-      <h2>Een mooie keuken voor iedereen</h2>
-      <p>Een nieuwe keuken op Curaçao? Dan weet je dat de kosten al snel behoorlijk kunnen oplopen. Een mooie, degelijke keuken lijkt daardoor soms een luxe die niet voor iedereen binnen handbereik ligt.</p>
-      <p>Wij vinden dat het ook anders kan.</p>
-      <p>Daarom zijn wij gestart met het aanbieden van <strong>mooie, gebruikte keukens voor een betaalbare prijs</strong>. Keukens die in Nederland misschien plaatsmaken voor een nieuwe keuken, maar hier op Curaçao nog jarenlang mee kunnen gaan.</p>
-      <p>Wij zoeken kwalitatief goede keukens uit, halen ze naar Curaçao en geven ze een tweede leven. Zo kunnen we complete keukens aanbieden voor een fractie van de prijs van een nieuwe keuken.</p>
-      <p>Van een eenvoudige keuken voor een appartement tot een complete keuken voor een gezin: <strong>er is steeds iets anders te vinden</strong>. En omdat iedere keuken uniek is, kan het zomaar zijn dat jouw ideale keuken er tussen staat.</p>
-      <h3>Een tweede leven, een eerste keus</h3>
-      <p>Een gebruikte keuken hoeft absoluut niet te betekenen dat je inlevert op kwaliteit of uitstraling. Integendeel. Veel keukens zijn nog in uitstekende staat en beschikken over degelijke kastjes, werkbladen en apparatuur.</p>
-      <p>Door bestaande keukens opnieuw te gebruiken, geven we ze een tweede leven én maken we een mooie keuken bereikbaar voor meer mensen op Curaçao.</p>
-      <p><strong>Waarom honderden of duizenden guldens meer betalen als een mooie gebruikte keuken ook een slimme keuze kan zijn?</strong></p>
-      <p>Bekijk ons actuele aanbod en ontdek welke keuken binnenkort misschien wel bij jou thuis staat.</p>
-      <p class="story-tagline"><strong>Mooi. Betaalbaar. Een tweede leven.</strong></p>
+      <h2 id="story-title">Een mooie keuken voor iedereen</h2>
+      <p id="story-p1">Een nieuwe keuken op Curaçao? Dan weet je dat de kosten al snel behoorlijk kunnen oplopen. Een mooie, degelijke keuken lijkt daardoor soms een luxe die niet voor iedereen binnen handbereik ligt.</p>
+      <p id="story-p2">Wij vinden dat het ook anders kan.</p>
+      <p id="story-p3">Daarom zijn wij gestart met het aanbieden van <strong>mooie, gebruikte keukens voor een betaalbare prijs</strong>. Keukens die in Nederland misschien plaatsmaken voor een nieuwe keuken, maar hier op Curaçao nog jarenlang mee kunnen gaan.</p>
+      <p id="story-p4">Wij zoeken kwalitatief goede keukens uit, halen ze naar Curaçao en geven ze een tweede leven. Zo kunnen we complete keukens aanbieden voor een fractie van de prijs van een nieuwe keuken.</p>
+      <p id="story-p5">Van een eenvoudige keuken voor een appartement tot een complete keuken voor een gezin: <strong>er is steeds iets anders te vinden</strong>. En omdat iedere keuken uniek is, kan het zomaar zijn dat jouw ideale keuken er tussen staat.</p>
+      <h3 id="story-subtitle">Een tweede leven, een eerste keus</h3>
+      <p id="story-p6">Een gebruikte keuken hoeft absoluut niet te betekenen dat je inlevert op kwaliteit of uitstraling. Integendeel. Veel keukens zijn nog in uitstekende staat en beschikken over degelijke kastjes, werkbladen en apparatuur.</p>
+      <p id="story-p7">Door bestaande keukens opnieuw te gebruiken, geven we ze een tweede leven én maken we een mooie keuken bereikbaar voor meer mensen op Curaçao.</p>
+      <p id="story-p8"><strong>Waarom honderden of duizenden guldens meer betalen als een mooie gebruikte keuken ook een slimme keuze kan zijn?</strong></p>
+      <p id="story-p9">Bekijk ons actuele aanbod en ontdek welke keuken binnenkort misschien wel bij jou thuis staat.</p>
+      <p class="story-tagline" id="story-tagline"><strong>Mooi. Betaalbaar. Een tweede leven.</strong></p>
     </div>
   </section>
 
   <section id="proces" class="process">
     <div class="container">
-      <h2>Zo werkt het</h2>
+      <h2 id="process-title">Zo werkt het</h2>
       <div class="process-grid">
         <div class="process-step">
           <span class="step-number">1</span>
-          <h3>Aankoop</h3>
-          <p>We selecteren en kopen elke keuken zorgvuldig in.</p>
+          <h3 id="process-1-title">Aankoop</h3>
+          <p id="process-1-desc">We selecteren en kopen elke keuken zorgvuldig in.</p>
         </div>
         <div class="process-step">
           <span class="step-number">2</span>
-          <h3>Vervoer &amp; opslag</h3>
-          <p>De keuken wordt opgehaald en veilig opgeslagen in onze showroom.</p>
+          <h3 id="process-2-title">Vervoer &amp; opslag</h3>
+          <p id="process-2-desc">De keuken wordt opgehaald en veilig opgeslagen in onze showroom.</p>
         </div>
         <div class="process-step">
           <span class="step-number">3</span>
-          <h3>Bezichtiging</h3>
-          <p>Kom langs om de keuken in het echt te bekijken, of vraag extra foto's op.</p>
+          <h3 id="process-3-title">Bezichtiging</h3>
+          <p id="process-3-desc">Kom langs om de keuken in het echt te bekijken, of vraag extra foto's op.</p>
         </div>
         <div class="process-step">
           <span class="step-number">4</span>
-          <h3>Transport</h3>
-          <p>We regelen het transport naar jouw adres — verzending naar Curaçao is mogelijk.</p>
+          <h3 id="process-4-title">Transport</h3>
+          <p id="process-4-desc">We regelen het transport naar jouw adres — verzending naar Curaçao is mogelijk.</p>
         </div>
         <div class="process-step">
           <span class="step-number">5</span>
-          <h3>Installatie</h3>
-          <p>Onze mensen plaatsen de keuken vakkundig en netjes.</p>
+          <h3 id="process-5-title">Installatie</h3>
+          <p id="process-5-desc">Onze mensen plaatsen de keuken vakkundig en netjes.</p>
         </div>
         <div class="process-step">
           <span class="step-number">6</span>
-          <h3>Klaar voor gebruik</h3>
-          <p>Geniet van je "nieuwe" keuken, tegen een eerlijke prijs.</p>
+          <h3 id="process-6-title">Klaar voor gebruik</h3>
+          <p id="process-6-desc">Geniet van je "nieuwe" keuken, tegen een eerlijke prijs.</p>
         </div>
       </div>
     </div>
@@ -89,72 +90,72 @@
 
   <section id="keukens" class="kitchens">
     <div class="container">
-      <h2>Beschikbare keukens</h2>
-      <p class="section-intro">Klik op een foto om alle foto's van die keuken te bekijken.</p>
+      <h2 id="kitchens-title">Beschikbare keukens</h2>
+      <p class="section-intro" id="kitchens-intro">Klik op een foto om alle foto's van die keuken te bekijken.</p>
 
       <div class="kitchen-grid">
 
         <article class="kitchen-card">
           <a href="#lightbox-keuken1" class="kitchen-photo-link">
-            <img src="Beschikbare%20keukens/keuken%203/1.jpg" alt="Complete keuken incl. apparatuur (Siemens)">
-            <span class="photo-count">+5 foto's</span>
+            <img src="Beschikbare%20keukens/keuken%203/1.jpg" alt="Complete keuken incl. apparatuur (Siemens)" id="kitchen1-img">
+            <span class="photo-count" id="kitchen1-badge">+5 foto's</span>
           </a>
           <div class="kitchen-info">
-            <h3>Complete keuken incl. apparatuur (Siemens)</h3>
+            <h3 id="kitchen1-title">Complete keuken incl. apparatuur (Siemens)</h3>
             <p class="kitchen-price">&euro; 1.000</p>
-            <p>Siemens apparatuur: koelkast, oven, vaatwasser, gasfornuis en afzuigkap (zonder koffiezetapparaat). Kastenwand 240×198 cm, kook-/wasgedeelte 326 cm breed.</p>
-            <a href="#lightbox-keuken1" class="btn btn-secondary">Bekijk foto's</a>
+            <p id="kitchen1-desc">Siemens apparatuur: koelkast, oven, vaatwasser, gasfornuis en afzuigkap (zonder koffiezetapparaat). Kastenwand 240×198 cm, kook-/wasgedeelte 326 cm breed.</p>
+            <a href="#lightbox-keuken1" class="btn btn-secondary" id="kitchen1-cta">Bekijk foto's</a>
           </div>
         </article>
 
         <article class="kitchen-card">
           <a href="#lightbox-keuken2" class="kitchen-photo-link">
-            <img src="Beschikbare%20keukens/keuken%204/1.jpg" alt="Complete keuken uit 2019 incl. apparatuur">
-            <span class="photo-count">+10 foto's</span>
+            <img src="Beschikbare%20keukens/keuken%204/1.jpg" alt="Complete keuken uit 2019 incl. apparatuur" id="kitchen2-img">
+            <span class="photo-count" id="kitchen2-badge">+10 foto's</span>
           </a>
           <div class="kitchen-info">
-            <h3>Complete keuken uit 2019 incl. apparatuur</h3>
-            <p class="kitchen-price">Prijs op aanvraag</p>
-            <p>Bosch vaatwasser (2025), AEG koelkast (2024), inductiekookplaat en combi oven/magnetron. Rechts 240 cm met kolomkast, links ca. 320 cm met spoelbak, werkbladhoogte 94 cm, diepte 60 cm.</p>
-            <a href="#lightbox-keuken2" class="btn btn-secondary">Bekijk foto's</a>
+            <h3 id="kitchen2-title">Complete keuken uit 2019 incl. apparatuur</h3>
+            <p class="kitchen-price" id="kitchen2-price">Prijs op aanvraag</p>
+            <p id="kitchen2-desc">Bosch vaatwasser (2025), AEG koelkast (2024), inductiekookplaat en combi oven/magnetron. Rechts 240 cm met kolomkast, links ca. 320 cm met spoelbak, werkbladhoogte 94 cm, diepte 60 cm.</p>
+            <a href="#lightbox-keuken2" class="btn btn-secondary" id="kitchen2-cta">Bekijk foto's</a>
           </div>
         </article>
 
         <article class="kitchen-card">
           <a href="#lightbox-keuken3" class="kitchen-photo-link">
-            <img src="Beschikbare%20keukens/keuken%205/1.jpg" alt="Keuken donker bruin-grijs met houtnerf, met bar">
-            <span class="photo-count">+8 foto's</span>
+            <img src="Beschikbare%20keukens/keuken%205/1.jpg" alt="Keuken donker bruin-grijs met houtnerf, met bar" id="kitchen3-img">
+            <span class="photo-count" id="kitchen3-badge">+8 foto's</span>
           </a>
           <div class="kitchen-info">
-            <h3>Keuken donker bruin-grijs met houtnerf, met bar</h3>
-            <p class="kitchen-price">Prijs op aanvraag</p>
-            <p>Dubbelwandige keuken uit 2008, totale lengte 448 cm (linkerblok 60 cm, werkblad 315 cm, rechterblok 60 cm), werkbladhoogte 94 cm. Bar 216×90 cm met lades van 90 cm breed. Inbouwapparatuur niet inbegrepen.</p>
-            <a href="#lightbox-keuken3" class="btn btn-secondary">Bekijk foto's</a>
+            <h3 id="kitchen3-title">Keuken donker bruin-grijs met houtnerf, met bar</h3>
+            <p class="kitchen-price" id="kitchen3-price">Prijs op aanvraag</p>
+            <p id="kitchen3-desc">Dubbelwandige keuken uit 2008, totale lengte 448 cm (linkerblok 60 cm, werkblad 315 cm, rechterblok 60 cm), werkbladhoogte 94 cm. Bar 216×90 cm met lades van 90 cm breed. Inbouwapparatuur niet inbegrepen.</p>
+            <a href="#lightbox-keuken3" class="btn btn-secondary" id="kitchen3-cta">Bekijk foto's</a>
           </div>
         </article>
 
         <article class="kitchen-card">
           <a href="#lightbox-keuken4" class="kitchen-photo-link">
-            <img src="Beschikbare%20keukens/keuken%206/1.jpg" alt="Complete keuken in prima staat">
-            <span class="photo-count">+11 foto's</span>
+            <img src="Beschikbare%20keukens/keuken%206/1.jpg" alt="Complete keuken in prima staat" id="kitchen4-img">
+            <span class="photo-count" id="kitchen4-badge">+11 foto's</span>
           </a>
           <div class="kitchen-info">
-            <h3>Complete keuken in prima staat</h3>
+            <h3 id="kitchen4-title">Complete keuken in prima staat</h3>
             <p class="kitchen-price">&euro; 2.000</p>
-            <p>Composiet werkblad, Siemens vaatwasser, Bosch oven en losse Bosch koelkast (inductiekookplaat niet inbegrepen).</p>
-            <a href="#lightbox-keuken4" class="btn btn-secondary">Bekijk foto's</a>
+            <p id="kitchen4-desc">Composiet werkblad, Siemens vaatwasser, Bosch oven en losse Bosch koelkast (inductiekookplaat niet inbegrepen).</p>
+            <a href="#lightbox-keuken4" class="btn btn-secondary" id="kitchen4-cta">Bekijk foto's</a>
           </div>
         </article>
 
         <article class="kitchen-card">
           <a href="#lightbox-keuken5" class="kitchen-photo-link">
-            <img src="Beschikbare%20keukens/keuken%207/1.jpg" alt="Witte hoogglans keuken met granieten blad">
+            <img src="Beschikbare%20keukens/keuken%207/1.jpg" alt="Witte hoogglans keuken met granieten blad" id="kitchen5-img">
           </a>
           <div class="kitchen-info">
-            <h3>Witte hoogglans keuken met granieten blad</h3>
-            <p class="kitchen-price">Prijs op aanvraag</p>
-            <p>Granieten aanrechtblad, 2 houten bovenkastjes, oven, vaatwasser (2025), 5-pits gasstel, koelkast en recirculatie afzuigkap. Rechte opstelling, 4,30 m incl. paspanelen.</p>
-            <a href="#lightbox-keuken5" class="btn btn-secondary">Bekijk foto</a>
+            <h3 id="kitchen5-title">Witte hoogglans keuken met granieten blad</h3>
+            <p class="kitchen-price" id="kitchen5-price">Prijs op aanvraag</p>
+            <p id="kitchen5-desc">Granieten aanrechtblad, 2 houten bovenkastjes, oven, vaatwasser (2025), 5-pits gasstel, koelkast en recirculatie afzuigkap. Rechte opstelling, 4,30 m incl. paspanelen.</p>
+            <a href="#lightbox-keuken5" class="btn btn-secondary" id="kitchen5-cta">Bekijk foto</a>
           </div>
         </article>
 
@@ -164,8 +165,8 @@
 
   <section id="contact" class="contact">
     <div class="container">
-      <h2>Interesse in een keuken?</h2>
-      <p>Neem contact met ons op voor meer informatie, extra foto's of een bezichtiging in de showroom.</p>
+      <h2 id="contact-title">Interesse in een keuken?</h2>
+      <p id="contact-desc">Neem contact met ons op voor meer informatie, extra foto's of een bezichtiging in de showroom.</p>
     </div>
   </section>
 
@@ -173,7 +174,7 @@
 
 <footer class="site-footer">
   <div class="container">
-    <p>&copy; 2026 Second Kitchen — Mooie keukens. Een tweede kans.</p>
+    <p id="footer-text">&copy; 2026 Second Kitchen — Mooie keukens. Een tweede kans.</p>
   </div>
 </footer>
 
@@ -181,7 +182,7 @@
 <div id="lightbox-keuken1" class="lightbox">
   <a href="#keukens" class="lightbox-close" aria-label="Sluiten">&times;</a>
   <div class="lightbox-content">
-    <h3>Complete keuken incl. apparatuur (Siemens)</h3>
+    <h3 id="lightbox1-title">Complete keuken incl. apparatuur (Siemens)</h3>
     <div class="lightbox-grid">
       <img src="Beschikbare%20keukens/keuken%203/1.jpg" alt="Foto 1">
       <img src="Beschikbare%20keukens/keuken%203/2.jpg" alt="Foto 2">
@@ -196,7 +197,7 @@
 <div id="lightbox-keuken2" class="lightbox">
   <a href="#keukens" class="lightbox-close" aria-label="Sluiten">&times;</a>
   <div class="lightbox-content">
-    <h3>Complete keuken uit 2019 incl. apparatuur</h3>
+    <h3 id="lightbox2-title">Complete keuken uit 2019 incl. apparatuur</h3>
     <div class="lightbox-grid">
       <img src="Beschikbare%20keukens/keuken%204/1.jpg" alt="Foto 1">
       <img src="Beschikbare%20keukens/keuken%204/2.jpg" alt="Foto 2">
@@ -216,7 +217,7 @@
 <div id="lightbox-keuken3" class="lightbox">
   <a href="#keukens" class="lightbox-close" aria-label="Sluiten">&times;</a>
   <div class="lightbox-content">
-    <h3>Keuken donker bruin-grijs met houtnerf, met bar</h3>
+    <h3 id="lightbox3-title">Keuken donker bruin-grijs met houtnerf, met bar</h3>
     <div class="lightbox-grid">
       <img src="Beschikbare%20keukens/keuken%205/1.jpg" alt="Foto 1">
       <img src="Beschikbare%20keukens/keuken%205/2.jpg" alt="Foto 2">
@@ -234,7 +235,7 @@
 <div id="lightbox-keuken4" class="lightbox">
   <a href="#keukens" class="lightbox-close" aria-label="Sluiten">&times;</a>
   <div class="lightbox-content">
-    <h3>Complete keuken in prima staat</h3>
+    <h3 id="lightbox4-title">Complete keuken in prima staat</h3>
     <div class="lightbox-grid">
       <img src="Beschikbare%20keukens/keuken%206/1.jpg" alt="Foto 1">
       <img src="Beschikbare%20keukens/keuken%206/2.jpg" alt="Foto 2">
@@ -255,12 +256,137 @@
 <div id="lightbox-keuken5" class="lightbox">
   <a href="#keukens" class="lightbox-close" aria-label="Sluiten">&times;</a>
   <div class="lightbox-content">
-    <h3>Witte hoogglans keuken met granieten blad</h3>
+    <h3 id="lightbox5-title">Witte hoogglans keuken met granieten blad</h3>
     <div class="lightbox-grid">
       <img src="Beschikbare%20keukens/keuken%207/1.jpg" alt="Foto 1">
     </div>
   </div>
 </div>
+
+<script>
+(function () {
+  var T = [
+    { id: "nav-verhaal", nl: `Ons verhaal`, pap: `Nos historia` },
+    { id: "nav-proces", nl: `Werkwijze`, pap: `Kon nos ta traha` },
+    { id: "nav-keukens", nl: `Beschikbare keukens`, pap: `Kushinanan disponibel` },
+    { id: "nav-contact", nl: `Contact`, pap: `Kontakto` },
+
+    { id: "hero-title", nl: `Mooie keukens.<br>Een tweede kans.`, pap: `Kushinanan bunita.<br>Un di dos chèns.` },
+    { id: "hero-desc", nl: `Bij Second Kitchen geven we goede, gebruikte keukens een nieuw thuis. Compleet, betaalbaar en met oog voor kwaliteit.`, pap: `Na Second Kitchen nos ta duna kushina bon i di segunda man un lugá nobo. Kompleto, na un preis aksesibel i ku atenshon pa kalidat.` },
+    { id: "hero-cta", nl: `Bekijk beschikbare keukens`, pap: `Wak kushinanan disponibel` },
+
+    { id: "story-title", nl: `Een mooie keuken voor iedereen`, pap: `Un kushina bunita pa tur hende` },
+    { id: "story-p1", nl: `Een nieuwe keuken op Curaçao? Dan weet je dat de kosten al snel behoorlijk kunnen oplopen. Een mooie, degelijke keuken lijkt daardoor soms een luxe die niet voor iedereen binnen handbereik ligt.`, pap: `Un kushina nobo na Kòrsou? Anto bo sa ku e kostonan por subi lihé i bira hopi. Un kushina bunita i solido asina ta parse un luho ku no ta na alkanse di tur hende.` },
+    { id: "story-p2", nl: `Wij vinden dat het ook anders kan.`, pap: `Nos ta kere ku e por ser diferente tambe.` },
+    { id: "story-p3", nl: `Daarom zijn wij gestart met het aanbieden van <strong>mooie, gebruikte keukens voor een betaalbare prijs</strong>. Keukens die in Nederland misschien plaatsmaken voor een nieuwe keuken, maar hier op Curaçao nog jarenlang mee kunnen gaan.`, pap: `P'esei nos a kuminsá ofresé <strong>kushinanan bunita i di segunda man pa un preis aksesibel</strong>. Kushina ku na Hulanda kisas ta wòrdu remplasá pa un kushina nobo, pero ku aki na Kòrsou por sirbi pa hopi aña mas.` },
+    { id: "story-p4", nl: `Wij zoeken kwalitatief goede keukens uit, halen ze naar Curaçao en geven ze een tweede leven. Zo kunnen we complete keukens aanbieden voor een fractie van de prijs van een nieuwe keuken.`, pap: `Nos ta selekshoná kushinanan di bon kalidat, hibá nan pa Kòrsou i duna nan un di dos bida. Asina nos por ofresé kushina kompleto pa un fraksion di e preis di un kushina nobo.` },
+    { id: "story-p5", nl: `Van een eenvoudige keuken voor een appartement tot een complete keuken voor een gezin: <strong>er is steeds iets anders te vinden</strong>. En omdat iedere keuken uniek is, kan het zomaar zijn dat jouw ideale keuken er tussen staat.`, pap: `Di un kushina simpel pa un apartamento te un kushina kompleto pa un famia: semper tin algu diferente. I komo ku kada kushina ta úniko, <strong>por ta ku bo kushina ideal ta meimei di nos oferta</strong>.` },
+    { id: "story-subtitle", nl: `Een tweede leven, een eerste keus`, pap: `Un di dos bida, e promé opshon` },
+    { id: "story-p6", nl: `Een gebruikte keuken hoeft absoluut niet te betekenen dat je inlevert op kwaliteit of uitstraling. Integendeel. Veel keukens zijn nog in uitstekende staat en beschikken over degelijke kastjes, werkbladen en apparatuur.`, pap: `Un kushina di segunda man no ke men bo tin ku sakrifiká kalidat òf presentashon. Al kontrario. Hopi kushina ta ainda den kondishon ekselente, ku gabinètenan solido, tabla di trabou i aparatonan bon.` },
+    { id: "story-p7", nl: `Door bestaande keukens opnieuw te gebruiken, geven we ze een tweede leven én maken we een mooie keuken bereikbaar voor meer mensen op Curaçao.`, pap: `Dor di usa kushinanan ekistente di nobo, nos ta duna nan un di dos bida i na mes tempu ta hasi un kushina bunita aksesibel pa mas hende na Kòrsou.` },
+    { id: "story-p8", nl: `<strong>Waarom honderden of duizenden guldens meer betalen als een mooie gebruikte keuken ook een slimme keuze kan zijn?</strong>`, pap: `<strong>Pakiko paga shen òf mil florin mas ora un kushina bunita di segunda man por ta un skohementu inteligente tambe?</strong>` },
+    { id: "story-p9", nl: `Bekijk ons actuele aanbod en ontdek welke keuken binnenkort misschien wel bij jou thuis staat.`, pap: `Wak nos oferta aktual i deskubrí kua kushina lo por ta na bo kas pronto.` },
+    { id: "story-tagline", nl: `<strong>Mooi. Betaalbaar. Een tweede leven.</strong>`, pap: `<strong>Bunita. Aksesibel. Un di dos bida.</strong>` },
+
+    { id: "process-title", nl: `Zo werkt het`, pap: `Kon e ta funshoná` },
+    { id: "process-1-title", nl: `Aankoop`, pap: `Kompra` },
+    { id: "process-1-desc", nl: `We selecteren en kopen elke keuken zorgvuldig in.`, pap: `Nos ta selekshoná i kumpra kada kushina ku kuidou.` },
+    { id: "process-2-title", nl: `Vervoer &amp; opslag`, pap: `Transporte &amp; almasenamentu` },
+    { id: "process-2-desc", nl: `De keuken wordt opgehaald en veilig opgeslagen in onze showroom.`, pap: `E kushina ta wòrdu buská i wardá seif den nos showroom.` },
+    { id: "process-3-title", nl: `Bezichtiging`, pap: `Bishitá` },
+    { id: "process-3-desc", nl: `Kom langs om de keuken in het echt te bekijken, of vraag extra foto's op.`, pap: `Bin wak e kushina en persona, òf pidi mas potrèt.` },
+    { id: "process-4-title", nl: `Transport`, pap: `Transporte` },
+    { id: "process-4-desc", nl: `We regelen het transport naar jouw adres — verzending naar Curaçao is mogelijk.`, pap: `Nos ta organisá transporte pa bo adrès — embarke pa Kòrsou ta posibel.` },
+    { id: "process-5-title", nl: `Installatie`, pap: `Instalashon` },
+    { id: "process-5-desc", nl: `Onze mensen plaatsen de keuken vakkundig en netjes.`, pap: `Nos hendenan ta instalá e kushina profeshonalmente i limpi.` },
+    { id: "process-6-title", nl: `Klaar voor gebruik`, pap: `Kla pa usa` },
+    { id: "process-6-desc", nl: `Geniet van je "nieuwe" keuken, tegen een eerlijke prijs.`, pap: `Gosa di bo kushina "nobo", pa un preis hustu.` },
+
+    { id: "kitchens-title", nl: `Beschikbare keukens`, pap: `Kushinanan disponibel` },
+    { id: "kitchens-intro", nl: `Klik op een foto om alle foto's van die keuken te bekijken.`, pap: `Klik riba un potrèt pa mira tur e potrètnan di e kushina.` },
+
+    { id: "kitchen1-title", nl: `Complete keuken incl. apparatuur (Siemens)`, pap: `Kushina kompleto ku aparato (Siemens)` },
+    { id: "kitchen1-badge", nl: `+5 foto's`, pap: `+5 potrèt` },
+    { id: "kitchen1-desc", nl: `Siemens apparatuur: koelkast, oven, vaatwasser, gasfornuis en afzuigkap (zonder koffiezetapparaat). Kastenwand 240×198 cm, kook-/wasgedeelte 326 cm breed.`, pap: `Aparato Siemens: frigider, fòrno, mashin di laba plachi, fòrnu di gas i kap ekstraktor (sin machine di kòfi). Muraya di gabinete 240×198 cm, parti di kushiná/laba 326 cm hanchu.` },
+    { id: "kitchen1-cta", nl: `Bekijk foto's`, pap: `Wak potrètnan` },
+    { id: "lightbox1-title", nl: `Complete keuken incl. apparatuur (Siemens)`, pap: `Kushina kompleto ku aparato (Siemens)` },
+
+    { id: "kitchen2-title", nl: `Complete keuken uit 2019 incl. apparatuur`, pap: `Kushina kompleto for di 2019 ku aparato` },
+    { id: "kitchen2-badge", nl: `+10 foto's`, pap: `+10 potrèt` },
+    { id: "kitchen2-price", nl: `Prijs op aanvraag`, pap: `Preis riba pedido` },
+    { id: "kitchen2-desc", nl: `Bosch vaatwasser (2025), AEG koelkast (2024), inductiekookplaat en combi oven/magnetron. Rechts 240 cm met kolomkast, links ca. 320 cm met spoelbak, werkbladhoogte 94 cm, diepte 60 cm.`, pap: `Mashin di laba plachi Bosch (2025), frigider AEG (2024), plachi di induksion i fòrno/mikroweif kombiná. Banda drechi 240 cm ku gabinete haltu, banda robes mas o menos 320 cm ku lavabo, haltura di tabla di trabou 94 cm, profundidat 60 cm.` },
+    { id: "kitchen2-cta", nl: `Bekijk foto's`, pap: `Wak potrètnan` },
+    { id: "lightbox2-title", nl: `Complete keuken uit 2019 incl. apparatuur`, pap: `Kushina kompleto for di 2019 ku aparato` },
+
+    { id: "kitchen3-title", nl: `Keuken donker bruin-grijs met houtnerf, met bar`, pap: `Kushina marón-grís skur ku vetak di palu, ku bar` },
+    { id: "kitchen3-badge", nl: `+8 foto's`, pap: `+8 potrèt` },
+    { id: "kitchen3-price", nl: `Prijs op aanvraag`, pap: `Preis riba pedido` },
+    { id: "kitchen3-desc", nl: `Dubbelwandige keuken uit 2008, totale lengte 448 cm (linkerblok 60 cm, werkblad 315 cm, rechterblok 60 cm), werkbladhoogte 94 cm. Bar 216×90 cm met lades van 90 cm breed. Inbouwapparatuur niet inbegrepen.`, pap: `Kushina di dòbel muraya for di 2008, largura total 448 cm (blòk robes 60 cm, tabla di trabou 315 cm, blòk drechi 60 cm), haltura di tabla di trabou 94 cm. Bar 216×90 cm ku laganan di 90 cm hanchu. Aparato enkorporá no inkluí.` },
+    { id: "kitchen3-cta", nl: `Bekijk foto's`, pap: `Wak potrètnan` },
+    { id: "lightbox3-title", nl: `Keuken donker bruin-grijs met houtnerf, met bar`, pap: `Kushina marón-grís skur ku vetak di palu, ku bar` },
+
+    { id: "kitchen4-title", nl: `Complete keuken in prima staat`, pap: `Kushina kompleto den kondishon ekselente` },
+    { id: "kitchen4-badge", nl: `+11 foto's`, pap: `+11 potrèt` },
+    { id: "kitchen4-desc", nl: `Composiet werkblad, Siemens vaatwasser, Bosch oven en losse Bosch koelkast (inductiekookplaat niet inbegrepen).`, pap: `Tabla di trabou di komposiet, mashin di laba plachi Siemens, fòrno Bosch i frigider Bosch separá (plachi di induksion no inkluí).` },
+    { id: "kitchen4-cta", nl: `Bekijk foto's`, pap: `Wak potrètnan` },
+    { id: "lightbox4-title", nl: `Complete keuken in prima staat`, pap: `Kushina kompleto den kondishon ekselente` },
+
+    { id: "kitchen5-title", nl: `Witte hoogglans keuken met granieten blad`, pap: `Kushina blanku briyante ku tabla di granito` },
+    { id: "kitchen5-price", nl: `Prijs op aanvraag`, pap: `Preis riba pedido` },
+    { id: "kitchen5-desc", nl: `Granieten aanrechtblad, 2 houten bovenkastjes, oven, vaatwasser (2025), 5-pits gasstel, koelkast en recirculatie afzuigkap. Rechte opstelling, 4,30 m incl. paspanelen.`, pap: `Tabla di trabou di granito, 2 gabinete di palu ariba, fòrno, mashin di laba plachi (2025), fòrnu di gas ku 5 pieu, frigider i kap ekstraktor di resirkulashon. Instalashon rekto, 4,30 m inkluí panelnan di ahusta.` },
+    { id: "kitchen5-cta", nl: `Bekijk foto`, pap: `Wak potrèt` },
+    { id: "lightbox5-title", nl: `Witte hoogglans keuken met granieten blad`, pap: `Kushina blanku briyante ku tabla di granito` },
+
+    { id: "contact-title", nl: `Interesse in een keuken?`, pap: `Interesá den un kushina?` },
+    { id: "contact-desc", nl: `Neem contact met ons op voor meer informatie, extra foto's of een bezichtiging in de showroom.`, pap: `Kontaktá nos pa mas informashon, potrèt ekstra òf pa bin wak den nos showroom.` },
+
+    { id: "footer-text", nl: `&copy; 2026 Second Kitchen — Mooie keukens. Een tweede kans.`, pap: `&copy; 2026 Second Kitchen — Kushinanan bunita. Un di dos chèns.` }
+  ];
+
+  var altText = {
+    "kitchen1-img": { nl: `Complete keuken incl. apparatuur (Siemens)`, pap: `Kushina kompleto ku aparato (Siemens)` },
+    "kitchen2-img": { nl: `Complete keuken uit 2019 incl. apparatuur`, pap: `Kushina kompleto for di 2019 ku aparato` },
+    "kitchen3-img": { nl: `Keuken donker bruin-grijs met houtnerf, met bar`, pap: `Kushina marón-grís skur ku vetak di palu, ku bar` },
+    "kitchen4-img": { nl: `Complete keuken in prima staat`, pap: `Kushina kompleto den kondishon ekselente` },
+    "kitchen5-img": { nl: `Witte hoogglans keuken met granieten blad`, pap: `Kushina blanku briyante ku tabla di granito` }
+  };
+
+  var STORAGE_KEY = "sk-lang";
+  var toggleBtn = document.getElementById("lang-toggle");
+  var htmlRoot = document.getElementById("html-root");
+
+  function applyLang(lang) {
+    T.forEach(function (entry) {
+      var el = document.getElementById(entry.id);
+      if (el) el.innerHTML = lang === "pap" ? entry.pap : entry.nl;
+    });
+    Object.keys(altText).forEach(function (id) {
+      var el = document.getElementById(id);
+      if (el) el.setAttribute("alt", lang === "pap" ? altText[id].pap : altText[id].nl);
+    });
+    document.querySelectorAll(".lightbox-grid img").forEach(function (img) {
+      var num = (img.alt.match(/\d+/) || ["1"])[0];
+      img.alt = (lang === "pap" ? "Potrèt " : "Foto ") + num;
+    });
+    document.querySelectorAll(".lightbox-close").forEach(function (el) {
+      el.setAttribute("aria-label", lang === "pap" ? "Sera" : "Sluiten");
+    });
+    htmlRoot.setAttribute("lang", lang === "pap" ? "pap" : "nl");
+    toggleBtn.textContent = lang === "pap" ? "Nederlands" : "Papiamentu";
+  }
+
+  toggleBtn.addEventListener("click", function () {
+    var current = htmlRoot.getAttribute("lang") === "pap" ? "pap" : "nl";
+    var next = current === "pap" ? "nl" : "pap";
+    try { localStorage.setItem(STORAGE_KEY, next); } catch (e) {}
+    applyLang(next);
+  });
+
+  var saved = "nl";
+  try { saved = localStorage.getItem(STORAGE_KEY) || "nl"; } catch (e) {}
+  if (saved === "pap") applyLang("pap");
+})();
+</script>
 
 </body>
 </html>
